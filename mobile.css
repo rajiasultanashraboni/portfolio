@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   margin: 0;
+}
+p{
+    font-size: 1rem;
+    text-align: justify;
+}
+/* navbar start */
+.nav-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+
+
+}
+h4{
+    font-family: "Sofia", sans-serif;
+    font-size: 2rem;
+    color:red;
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 5px;
+}
+/* for mobile */
+[class*="col-"]{
+    width: 100%;
+}
+.navbar{
+    background-color:#0c6168;
+    padding: 1% 5%;
+    text-align: center;
+}
+.navbar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+.navbar h3{
+    color: white;
+    margin: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.nav-menu a{
+    background-color: #40868b;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+.nav-menu a:hover{
+    background-color: gray;
+}
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* <!-- navbar end --> */
+
+/* profile design starts from here */
+.profile-image{
+    height: 300px;
+    width: 400px;
+}
+
+.profile{
+       padding: 130px 10px; 
+       position: relative;
+       text-align: left;
+}
+.profile .profile-image{
+
+    position: absolute;
+    right: 60px;
+    top: 50px;
+    transition: ease-in-out 2s;
+}
+
+.profile .profile-image:hover{
+    height: 400px;
+    width: 500px;
+    cursor: pointer;
+
+    
+}
