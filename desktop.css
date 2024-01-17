@@ -44,3 +44,48 @@
     text-decoration: underline;
 }
 /* <!-- navbar end --> */
+
+/* profile design starts from here */
+
+.profile .top-weather-icon{
+
+    position: absolute;
+    right: 100px;
+    width: 150px;
+    transition: width 2s transform 2s;
+}
+
+
+.profile .top-weather-icon:hover{
+   width: 180px;
+
+    
+}
+
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.profile .bottom-weather-icon{
+
+    position: absolute;
+    left: 140px;
+    bottom: 20px;
+    width: 150px;
+    transition: width 2s transform 2s;
+}
+
+
+.profile .bottom-weather-icon:hover{
+   width: 180px;
+
+    
+}
+
+
+
+/* profile design ends here */
