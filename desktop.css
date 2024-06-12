@@ -89,3 +89,52 @@
 
 
 /* profile design ends here */
+
+/* about me design starts here */
+
+.about-me image{
+    margin-top: 100px;
+}
+.about-me image img{
+    height: 250px;
+    width: 250px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+
+
+
+/* about me design ends here */
+/* Professional experience starts here */
+.professional-experience{
+    padding: 1% 1%;}
+
+/* achievements design here */
+
+ .achievements{
+    padding-right: 50px;
+}
+
+.contact button{
+    
+    width: 150px;
+}
+.contact-links{
+    position: relative;
+}
+.media-buttons{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
